@@ -12,9 +12,9 @@ export default class extends Phaser.State {
     banner.font = 'Bangers'
     banner.padding.set(10, 16)
     banner.fontSize = 40
-    banner.fill = '#77BFA3'
+    banner.fill = '#d81b60'
     banner.smoothed = false
-    banner.anchor.setTo(0.5)
+    banner.anchor.setTo(0.8)
 
     this.mushroom = new Mushroom({
       game: this,
